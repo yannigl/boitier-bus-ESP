@@ -12,8 +12,8 @@ import hashlib
 import json
 import pathlib
 
-ESP = pathlib.Path(__file__).resolve().parent / "esp32"
-NON_GERES = {"main.py", "updater.py", "boot.py", "reglages.py", "reglages.example.py"}
+ESP = pathlib.Path(__file__).resolve().parent 
+NON_GERES = {"main.py", "updater.py", "boot.py", "reglages.py", "reglages.example.py", "maj_manifest.py"}
 
 fichiers = {}
 for p in sorted(ESP.glob("*.py")):
