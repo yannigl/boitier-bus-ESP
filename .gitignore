@@ -1,0 +1,10 @@
+# Identifiants et etat local de la carte : jamais sur GitHub
+esp32/reglages.py
+reglages.py
+refuse.txt
+noupdate
+*.bak
+*.new
+
+__pycache__/
+*.pyc
